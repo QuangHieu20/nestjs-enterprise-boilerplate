@@ -120,7 +120,7 @@ Access the API at:
 Project built and maintained by:
 - **Author**: Hieu Nguyen
 - **Email**: [hieunq.work.dev@gmail.com](mailto:hieunq.work.dev@gmail.com)
-- **GitHub**: [@HieuNQ](https://github.com/HieuNQ)
+- **GitHub**: [@HieuNQ](https://github.com/QuangHieu20)
 
 ---
 
