@@ -1,0 +1,3 @@
+// Placeholder — add feature-specific guards here.
+// Example: JwtAuthGuard, LocalAuthGuard, etc.
+export {};

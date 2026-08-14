@@ -1,0 +1,3 @@
+// Placeholder — add custom parameter decorators here.
+// Example: @CurrentUser(), @Public(), etc.
+export {};

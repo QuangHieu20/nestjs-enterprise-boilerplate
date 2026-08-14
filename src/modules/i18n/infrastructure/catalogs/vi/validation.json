@@ -1,0 +1,16 @@
+{
+  "credential": {
+    "required": "Credential không được để trống"
+  },
+  "email": {
+    "required": "Email không được để trống",
+    "invalid": "Email không hợp lệ"
+  },
+  "password": {
+    "required": "Mật khẩu không được để trống",
+    "min_length": "Mật khẩu phải có ít nhất {constraints.0} ký tự"
+  },
+  "display_name": {
+    "required": "Tên hiển thị không được để trống"
+  }
+}

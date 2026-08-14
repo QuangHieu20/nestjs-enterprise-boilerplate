@@ -1,0 +1,16 @@
+{
+  "credential": {
+    "required": "Credential is required"
+  },
+  "email": {
+    "required": "Email is required",
+    "invalid": "Email is invalid"
+  },
+  "password": {
+    "required": "Password is required",
+    "min_length": "Password must be at least {constraints.0} characters"
+  },
+  "display_name": {
+    "required": "Display name is required"
+  }
+}
