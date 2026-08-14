@@ -13,16 +13,22 @@ The project is designed with **Clean Architecture + Domain-Driven Design (DDD)**
 - **Infrastructure Layer**: Implements adapters (TypeORM Repositories, Database context, Message Queue publisher/consumer, External APIs).
 - **Presentation Layer**: HTTP Controllers, Guards, Interceptors, Custom Decorators.
 
-### 1.2. Built-in Features & Handling
-- **Authentication**: JWT stateless authentication, **Refresh Token Rotation** mechanism with `family_id` and `jti` to prevent replay attacks (token reuse detection), supports **Google Sign-In (OAuth2)**.
-- **Authorization**: Multi-level authorization combining **RBAC** (Role-Based Access Control) and **ABAC** (Attribute-Based Access Control / Policies) using **CASL** (`@casl/ability`).
-- **Message Queue & Event-Driven**: Integrates **RabbitMQ** with a **Transactional Outbox Pattern** to ensure 100% reliable message delivery without data loss during system failures.
-- **Security & Rate Limiting**: Integrates **Helmet**, **Cookie-parser**, **Throttler** (Global Rate limiting to prevent DDoS/Brute-force, can be tightened for sensitive routes like Login/Register).
-- **Internationalization (i18n)**: Automatically translates validation messages, response messages, and error codes based on request headers using `nestjs-i18n`.
-- **Global Error Handling & Uniform Response**: Centralized error catching (`GlobalExceptionFilter`) and standardized response data format (`ResponseInterceptor`).
-- **API Documentation**: Integrated **Swagger OpenAPI** available at `/docs`.
-- **Code Scaffolding**: Automatically generates a standard 4-layer module scaffold via **Hygen**.
+### 1.2.  Built-in Feature
 
+- [x] Authentication — JWT, Refresh Token Rotation, Google OAuth
+- [x] Authorization — RBAC & ABAC with CASL
+- [x] Database — PostgreSQL + TypeORM
+- [x] Message Queue — RabbitMQ
+- [x] Transactional Outbox
+- [x] Security — Helmet, Cookie Parser, Rate Limiting
+- [x] Internationalization (I18N)
+- [x] Global Error Handling
+- [x] Standardized API Response
+- [x] Swagger / OpenAPI
+- [x] Code Scaffolding — Hygen
+- [x] Docker
+- [x] CI — GitHub Actions
+- [x] Unit & E2E Tests
 ---
 
 ## 2. Source Code Structure (Project Tree)
