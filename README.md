@@ -60,8 +60,8 @@ The project is designed with **Clean Architecture + Domain-Driven Design (DDD)**
 
 ### 3.1. Clone Project
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone git@github.com:QuangHieu20/nestjs-enterprise-boilerplate.git
+cd nestjs-enterprise-boilerplate
 ```
 
 ### 3.2. Install Dependencies & Environment Variables
